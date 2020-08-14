@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>USER PROFILE</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+	<div class = "container">
+		<h1 class = "label">Admin Login</h1>
+		<form class = "login_form" action = "home.html" method = "post" name = "form" onsubmit = "return validated()">
+			<div class = "font">Account No or Email</div>
+			<input type = "text" name = "email">
+			<div id = "email_error">Please fill up Account No or Email</div>
+			<div class = "font font2">Password</div>
+			<input type = "password" name = "password">
+			<div id = "pass_error">Please fill Password </div>
+			<button type = "submit">Login</button>
+		</form>
+	</div>
+	<script src = "valid.js"></script>
+</body>
+</html>
