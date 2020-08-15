@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">Trader First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="fname">Trader Middle name:</label><br>
+  <input type="text" id="mname" name="mname" value=""><br>
+  <label for="lname">Trader Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="fname">Trader's Father's name:</label><br>
+  <input type="text" id="father_name" name="father_name" value=""><br>
+  <label for="fname">Trader's Mother's name:</label><br>
+  <input type="text" id="mother_name" name="mother_name" value=""><br>
+  <label for="fname">Trader's Permanent Address:</label><br>
+  <input type="text" id="P_address" name="P_address" value=""><br>
+  <label for="fname">Trader's Local Address:</label><br>
+  <input type="text" id="L_address" name="L_address" value=""><br>
+  <label for="fname">Trader's Email Id:</label><br>
+  <input type="text" id="Email_id" name="Email_id" value=""><br>
+  <label for="fname">Trader's contact number:</label><br>
+  <input type="text" id="contact_number" name="contact_number" value=""><br>
+  <label for="fname">Trader's Date Of Birth:</label><br>
+  <input type="text" id="DOB" name="DOB" value=""><br>
+  <label for="fname">Trader's Marital status:</label><br>
+  <input type="text" id="M_status" name="M_status" value=""><br>
+  <label for="fname">Trader's Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <label for="fname">Trader's Aadhar Card No:</label><br>
+  <input type="text" id="Aadhar_no" name="Aadhar_no" value=""><br>
+  <label for="fname">Trader's Pan Card Number:</label><br>
+  <input type="text" id="Pan_no" name="Pan_no" value=""><br>
+  <label for="fname">Trader's Permanent Address:</label><br>
+  <input type="text" id="P_address" name="P_address" value=""><br>
+  <label for="fname">Trader's Family Person Contact:</label><br>
+  <input type="text" id="FP_contact" name="FP_contact" value=""><br>
+  <label for="fname">Trader's Education Details:</label><br>
+  <input type="text" id="Education_detail" name="Education_detail" value=""><br>
+  <label for="fname">Trader's Course Detail:</label><br>
+  <input type="text" id="Course_detail" name="Course_detail" value=""><br>
+  <label for="fname">Trader's Passing Year:</label><br>
+  <input type="text" id="Passing_Year" name="Passing_year" value=""><br>
+  <label for="fname">Trader's Passing Status:</label><br>
+  <input type="radio" id="Passed With Distinction" name="Trader's Passing Status" value="Passed With Distinction">
+  <label for="Passed With Distinction">Passed With Distinction</label><br>
+  <input type="radio" id="Failed" name="Trader's Passing Status" value="female">
+  <label for="Failed">Failed</label><br>
+  <input type="radio" id="Applied" name="Trader's Passing Status" value="Applied">
+  <label for="Applied">Applied</label><br>
+  <input type="submit" value="Submit">
+  <form action="/action_page.php" target="_blank">
+</form>
+
+
+</body>
+</html>
