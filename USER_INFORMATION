@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>USER PROFILE</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+	<div class = "container">
+		<h1 class = "label">TRADERS INFORMATION</h1>
+		<form class = "User_profile" action = "home.html" method = "post" name = "form" onsubmit = "return validated()">
+			<div class = "font">Trader's First name:</div>
+			<input type = "text" name = "First_name">
+			<div id = "Name Error">Please fill up name</div>
+                        <div class = "font">Trader's Middle name:</div>
+			<input type = "text" name = "middle_name">
+			<div id = "Name Error">Please fill up Middle Name</div>
+                        <div class = "font">Trader's Last name:</div>
+			<input type = "text" name = "Last_name">
+			<div id = "Name Error">Please fill up Last Name</div>
+			<div class = "font">Trader's Father's name:</div>
+			<input type = "text" name = "Father_name">
+			<div id = "Name Error">Please fill up Name</div>
+                        <div class = "font">Trader's Mother's name:</div>
+			<input type = "text" name = "Mother_name">
+			<div id = "Name Error">Please fill up Name</div>
+                        <div class = "font">Trader's Permanent Address:</div>
+			<input type = "text" name = "P_address">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Local Address:</div>
+			<input type = "text" name = "L_address">
+			<div id = " Error">Please fill up required field</div>
+                        <div class = "font">Trader's Email Id:</div>
+			<input type = "text" name = "Email_Id">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Contact number 1:</div>
+			<input type = "text" name = "Contact_number1">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Contact number 2:</div>
+			<input type = "text" name = "Contact_number2">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Date Of Birth:</div>
+			<input type = "text" name = "DOB">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Gender:</div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br>
+                        <div class = "font">Trader's Marital Status:</div>
+                        <input type="radio" id="Married" name="Married" value="Married">
+                        <label for="Married">Married</label><br>
+                        <input type="radio" id="Unmarried" name="Unmarried" value="Unmarried">
+                        <label for="Unmarried">Unmarried</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br>
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Aadhar Card no:</div>
+			<input type = "text" name = "Aadhar_Card_no">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Pan Card no:</div>
+			<input type = "text" name = "Pan_Card_no">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Family Person's Contact Number:</div>
+			<input type = "text" name = "Family_Persons_Contact_Number">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Family Person's Name:</div>
+			<input type = "text" name = "Family_Persons_Name">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Family Persons Relation With Trader:</div>
+			<input type = "text" name = "Family_Persons_Relation_With_Trader">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Educational Course Name:</div>
+			<input type = "text" name = "Educational_Course_Name">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Passing Year:</div>
+			<input type = "text" name = "Passing_Year">
+			<div id = "Error">Please fill up required field</div>
+                        <div class = "font">Trader's Passing Status:</div>
+                        <input type="radio" id="Passed With Distinction" name="Trader's Passing Status" value="Passed With Distinction">
+                        <label for="male">Passed With Distinction</label><br>
+                        <input type="radio" id="Failed" name="Trader's Passing Status" value="Failed">
+                        <label for="female">Failed</label><br>
+                        <input type="radio" id="other" name="Trader's Passing Status" value="other">
+                        <label for="other">Other</label><br>
+			<button type = "submit">Login</button>
+		</form>
+	</div>
+	<script src = "valid.js"></script>
+</body>
+</html>
